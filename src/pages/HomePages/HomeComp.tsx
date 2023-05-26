@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import { Hero } from "."
+import { Cards, Hero, Sliders } from "."
 // import SlickCards from "./SlickCards"
 
 const HomeComp = () => {
@@ -8,6 +8,8 @@ const HomeComp = () => {
     <div>
 
         <Hero />
+        <Cards />
+        <Sliders />
         {/* <SlickCards /> */}
 
     </div>
